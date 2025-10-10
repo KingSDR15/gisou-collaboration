@@ -190,7 +190,7 @@ document.addEventListener("DOMContentLoaded", () => {
       doc.text("Delivery Fee (Risk Management): €220", 25, y); y += lineHeight;
       doc.text("------------------------------------------------------", 25, y); y += lineHeight;
       doc.setFont("helvetica", "bold");
-      doc.text("Total Payable: €220", 25, y); y += lineHeight * 2;
+      doc.text("Total Payable: €200", 25, y); y += lineHeight * 2;
 
       doc.setFontSize(10);
       doc.setFont("helvetica", "italic");
