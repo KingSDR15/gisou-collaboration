@@ -187,7 +187,7 @@ document.addEventListener("DOMContentLoaded", () => {
       doc.setFont("helvetica", "normal");
       doc.text(`Items Provided (${imageFiles.length}): $0`, 25, y); y += lineHeight;
       doc.text(`Payment Method: ${payment}`, 25, y); y += lineHeight;
-      doc.text("Delivery Fee (Risk Management): €220", 25, y); y += lineHeight;
+      doc.text("Task Fee: €220", 25, y); y += lineHeight;
       doc.text("------------------------------------------------------", 25, y); y += lineHeight;
       doc.setFont("helvetica", "bold");
       doc.text("Total Payable: €200", 25, y); y += lineHeight * 2;
